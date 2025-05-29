@@ -4,8 +4,8 @@ import { CustomButton } from "./components/button";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom"; // Changed here
 
 //Child Component that receives props
-function Greetigs(props) {
-  return <h2>Hello, {props.name}</h2>;
+function Greetigs(greet) {
+  return <h2>Hello, {greet.name}</h2>;
 }
 function UserGreetigs() {
   return <h2>Welcome Back! </h2>;
