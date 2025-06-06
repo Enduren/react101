@@ -115,7 +115,7 @@ function App() {
         <CustomButton label={"New Button"} borderColor={"brown"} />
         <Greetigs name="Dwayne" />
 
-        <h3>This is use state </h3>
+        <h3>This is useState </h3>
         <p>Count: {count}</p>
         <button onClick={handleClick}>Add +</button>
         <button onClick={() => setCount(count - 1)}>Minus -</button>
