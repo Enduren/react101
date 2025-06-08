@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { CustomButton } from "./components/button";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom"; // Changed here
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/ContactUs";
 
 //Child Component that receives props
 function Greetigs(greet) {
@@ -68,18 +71,6 @@ function App() {
     event.preventDefault();
     // send some data to a server or perform some action
   };
-
-  function Home() {
-    return <h2>Home</h2>;
-  }
-
-  function About() {
-    return <h2>About</h2>;
-  }
-
-  function Contact() {
-    return <h2>Contact Us</h2>;
-  }
 
   return (
     //<> are react fragments
